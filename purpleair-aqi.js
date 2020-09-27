@@ -9,7 +9,7 @@ const API_URL = "https://www.purpleair.com/json?show=";
 // Find a nearby PurpleAir sensor ID via https://fire.airnow.gov/
 // Click a sensor near your location: the ID is the trailing integers
 // https://www.purpleair.com/json has all sensors by location & ID.
-let SENSOR_ID = args.widgetParameter || "69229";
+let SENSOR_ID = args.widgetParameter || "49237";
 
 // Fetch content from PurpleAir
 async function getSensorData(url, id) {
