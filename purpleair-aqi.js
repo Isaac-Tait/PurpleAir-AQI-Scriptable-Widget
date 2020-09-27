@@ -33,44 +33,44 @@ const levelAttributes = [
   {
     threshold: 300,
     label: "Hazardous",
-    startColor: "9e2043",
-    endColor: "7e0023",
-    textColor: "ffffff",
+    startColor: "000000", // black
+    endColor: "000000", // black
+    textColor: "ffffff", //white
   },
   {
     threshold: 200,
     label: "Very Unhealthy",
-    startColor: "8f3f97",
-    endColor: "6f1f77",
-    textColor: "ffffff",
+    startColor: "1a202c", // dark gray
+    endColor: "2d3748", // dark gray
+    textColor: "ffffff", // white
  },
   {
     threshold: 150,
     label: "Unhealthy",
-    startColor: "FF3D3D",
-    endColor: "D60000",
-    textColor: "000000",
+    startColor: "718096", // medium gray
+    endColor: "a0aec0", // medium gray
+    textColor: "000000", // black
   },
   {
     threshold: 100,
     label: "Unhealthy (S.G.)",
-    startColor: "FFA63D",
-    endColor: "D67200",
-    textColor: "000000",
+    startColor: "cbd5e0", // gray
+    endColor: "e2e8f0", // gray
+    textColor: "000000", // black
   },
   {
     threshold: 50,
     label: "Moderate",
-    startColor: "ffff00",
-    endColor: "cccc00",
-    textColor: "000000",
+    startColor: "edf2f7", // faint gray
+    endColor: "f7fafc", // faint gray 
+    textColor: "000000", // black
   },
   {
     threshold: -20,
     label: "Good",
-    startColor: "009900",
-    endColor: "007700",
-    textColor: "000000",
+    startColor: "ffffff", // white
+    endColor: "ffffff",
+    textColor: "000000", // black 
   },
 ];
 
