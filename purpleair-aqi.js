@@ -70,7 +70,7 @@ const levelAttributes = [
     label: "Good",
     startColor: "ffffff", // white
     endColor: "ffffff",
-    textColor: "000000", // black 
+    textColor: "718096", // gray 600
   },
 ];
 
